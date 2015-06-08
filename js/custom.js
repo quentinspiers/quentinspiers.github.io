@@ -24,7 +24,7 @@ function signOut() {
 }
 function renderGoogleSignIn() { gapi.signin.render("googleSignIn", { 
   'callback': signinCallback, 
-  'clientid': '872532021641-ivmdsquh3kok8l5566j82vb59c4kis18.apps.googleusercontent.com', 
+  'clientid': '746415199252-1beegdo28d1l7uelnvu7gjuf2g24k06d.apps.googleusercontent.com', 
   'cookiepolicy': 'single_host_origin', 
   'requestvisibleactions': 'http://schema.org/AddAction',
   'scope': 'https://www.googleapis.com/auth/plus.login'

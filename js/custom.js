@@ -29,3 +29,11 @@ function renderGoogleSignIn() { gapi.signin.render("googleSignIn", {
   'requestvisibleactions': 'http://schema.org/AddAction',
   'scope': 'https://www.googleapis.com/auth/plus.login'
 });}
+if (Cookies.get('name') !== undefined) {
+    signIn({
+      'displayName':Cookies.get('name'),
+      'image':{
+        'url':Cookies.get('imgurl')
+      }
+  });
+ }
